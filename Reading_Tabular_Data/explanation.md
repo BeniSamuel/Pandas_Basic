@@ -25,5 +25,5 @@ As explained in the serie section to read a serie (column) you use the following
   - let's also try to select age less than 35 ``ageLess35 = titanic[titanic_dataframe_csv["Age"] <35]`` **note** : here the ageLess35 will contain the information about the people where only age is less than 35
   - let's also try to display information of the passengers whose age is less than 35 `` titanic.loc[personAgeLess35 = titanic["Age"] <35 , "Name"] `` **note**: here we are telling pandas that we will look in the column of age and check if age is less than 35 we will print names
   - Also you can make some slicing and show a certain column and row based on what you want to make here is the example:
-    ``titanic.iloc[9:15, 2:5]`` **note** : as y
+    ``titanic.iloc[9:15, 2:5]`` **note** : as you see here we are telling pandas to show 9 to the 15 row from column 2 to 15
    
